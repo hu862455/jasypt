@@ -1,0 +1,20 @@
+# 应用名称
+spring:
+  application:
+    name: jasypt
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: ENC(vUV9C451U5D9yUcH8yejNZRxerfU9svFc0f48f1QAZ0r3KBPq19kp3VLf05wLOuWLrKlUZEujUtS63A5+aWtfUWod4rTUWkCZD7Ow+5SEivNndCbWDsSvpV2EoCGHP78DzIF9jxvQPVpOuL7ALgPNYJnk6qJGjRksaaLsScHzoCOpE7U+0yBBGAiS7SEGvlnHiCDzVocS3E2j1haVG5vtsb5c293JVCbAdiRg9+m9yOwc1ErCYweRvHWB2Ag+usGpe+hBrfNQre3ZJvb/aaUCjzv0Wl5s7NC)
+    username: ENC(3HDTrV57J4YtOBEHpPPitQ==)
+    password: ENC(XbjzGtNn6k1mU44qwp1mKXD2jSjfKkN6)
+# 应用服务 WEB 访问端口
+server:
+  port: 8090
+
+jasypt:
+  encryptor:
+    password: hushuai
+    # 指定加密方式
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
