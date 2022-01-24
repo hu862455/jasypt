@@ -10,7 +10,7 @@ spring:
     password: ENC(XbjzGtNn6k1mU44qwp1mKXD2jSjfKkN6)
 # 应用服务 WEB 访问端口
 server:
-  port: 8090
+  port: 8091
 
 jasypt:
   encryptor:
